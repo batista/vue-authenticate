@@ -1,3 +1,5 @@
+** Fork of [dgrubelic/vue-authenticate](https://github.com/dgrubelic/vue-authenticate/)! not for production purposes **
+
 [**WARNING**]: README file is currently in process of rewrite and will be released soon.
 
 # vue-authenticate
@@ -26,6 +28,7 @@ This library was inspired by well known authentication library for Angular calle
 6. Bitbucket (https://github.com/dgrubelic/vue-authenticate/blob/master/src/options.js#L81)
 7. LinkedIn (https://github.com/dgrubelic/vue-authenticate/blob/master/src/options.js#L93)
 8. Microsoft Live (https://github.com/dgrubelic/vue-authenticate/blob/master/src/options.js#L106)
+9. Slack (https://github.com/dgrubelic/vue-authenticate/blob/master/src/options.js#L165)
 
 ## Installation
 ```bash
@@ -95,6 +98,7 @@ new Vue({
 <button @click="authenticate('facebook')">auth Facebook</button>
 <button @click="authenticate('google')">auth Google</button>
 <button @click="authenticate('twitter')">auth Twitter</button>
+<button @click="authenticate('slack')">auth Slack</button>
 ```
 
 ### Vuex authentication

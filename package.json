@@ -1,6 +1,6 @@
 {
-  "name": "vue-authenticate",
-  "version": "1.5.0",
+  "name": "@batista/vue-authenticate",
+  "version": "1.6.0",
   "description": "Authentication library for Vue.js",
   "main": "dist/vue-authenticate.common.js",
   "module": "dist/vue-authenticate.esm.js",
@@ -22,13 +22,12 @@
     "oauth2"
   ],
   "author": {
-    "name": "Davor Grubelic",
-    "email": "davor.grubelic@gmail.com",
-    "url": "https://dgrubelic.me"
+    "name": "Sergio Batista",
+    "email": "mail@se.rg.io"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dgrubelic/vue-authenticate.git"
+    "url": "https://github.com/batista/vue-authenticate.git"
   },
   "files": [
     "dist"

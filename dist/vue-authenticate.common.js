@@ -714,6 +714,19 @@ var defaultOptions = {
       popupOptions: { width: 500, height: 560 },
     },
 
+    slack: {
+      name: 'slack',
+      url: '/auth/slack',
+      authorizationEndpoint: 'https://slack.com/openid/connect/authorize',
+      redirectUri: getRedirectUri(),
+      requiredUrlParams: ['scope'],
+      scope: ['openid', 'profile', 'email'],
+      scopeDelimiter: ' ',
+      display: 'popup',
+      oauthType: '2.0',
+      popupOptions: { width: 452, height: 633 },
+    },
+
     oauth1: {
       name: null,
       url: '/auth/oauth1',
